@@ -1,0 +1,30 @@
+.container {
+  background-color: #ddd;
+  position: relative;
+  z-index: 20;
+}
+
+.boxA {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  position: absolute;
+  z-index: 30;
+  background-color: chartreuse;
+}
+
+.rest {
+  border: 2px solid red;
+  position: relative;
+  z-index: 21;
+  height: 200px;
+}
+
+.boxB {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  position: absolute;
+  z-index: 999;
+  background-color: slateblue;
+}
